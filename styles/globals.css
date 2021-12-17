@@ -1,9 +1,10 @@
-html,
-body {
-  padding: 0;
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
 }
 
 a {
@@ -11,6 +12,34 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+body {
+  background-color: #111317;
+  color: #fff;
+}
+
+.coin_app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* Layout CSS */
+.layout {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.coin_logo {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.coin_logo span { 
+  color: #629eff;
 }
